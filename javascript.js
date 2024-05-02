@@ -7,7 +7,7 @@ function incrementCounter() {
 }
 
 function startCount() {
-    intervalID=setInterval("incrementCounter()", 100);
+    intervalID=setInterval("incrementCounter()", 1000);
 }
 
 function stopCount() {
