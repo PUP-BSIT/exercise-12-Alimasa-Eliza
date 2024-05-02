@@ -7,11 +7,13 @@ function incrementCounter() {
 }
 
 function startCount() {
-    intervalID=setInterval("incrementCounter()", 1000);
+    intervalID=setInterval(incrementCounter, 1000);
 }
 
 function stopCount() {
     clearInterval(intervalID);
+    timerValue = 0;
+    let count = document.getElementById("count").innerHTML = timerValue;
 }
 
 function resumeCount() {
@@ -19,5 +21,5 @@ function resumeCount() {
 }
 
 function pauseCount() {
-    stopCount();
+    clearInterval(intervalID);
 }
