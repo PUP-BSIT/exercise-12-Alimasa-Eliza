@@ -1,0 +1,55 @@
+.timer { 
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.count {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.start {
+    background-color: green;
+}
+  
+.start:hover {
+    background-color: rgb(125, 172, 125);
+}
+
+.pause {
+    background-color: gray;
+}
+
+.pause:hover {
+    background-color: rgb(192, 190, 190);
+}
+
+.resume {
+    background-color: blue;
+}
+
+.resume:hover {
+    background-color: rgb(178, 178, 250);
+}
+
+.stop {
+    background-color: red;
+}
+
+.stop:hover {
+    background-color: rgb(255, 170, 170);
+}
+
+.start, .pause, .resume, .stop {
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    font-weight: 200px;
+    font-size: 20px;
+}
